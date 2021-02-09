@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>q8
+    </title>
+    <style>
+        .calloutUp
+    {
+        position: relative;
+        height: 0;
+        width: 0;
+        border-bottom: 12px solid silver;
+        border-left: 12px dotted transparent;
+        border-right: 12px dotted transparent;
+        left: 73px;
+        top: 0px;
+        margin-left: 5px;
+        z-index: 10;
+    }
+    .calloutUp2
+    {
+        position: relative;
+        left: -10px;
+        top: 2px;
+        height: 0;
+        width: 0;
+        border-bottom: 10px solid aliceblue;
+        border-left: 10px dotted transparent;
+        border-right: 10px dotted transparent;
+        z-index: 11;
+    }
+    .divContainerUp
+    {
+        background-color: aliceblue;
+        border: solid 1px silver;
+        position: relative;
+        top: -1px;
+        z-index: 9;
+        width: 100px;
+        height : 100px;
+        padding: 4px;
+        border-radius: 4px;
+        text-align:center;
+    }
+    </style>
+</head>
+<body>
+    <div class="calloutUp">
+        <div class="calloutUp2"></div>
+    </div>
+    <div class="divContainerUp">
+        content
+    </div>
+</body>
+</html>
